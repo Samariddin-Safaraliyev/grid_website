@@ -1,0 +1,661 @@
+/* Global style */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body{
+    overflow: hidden;
+} */
+
+html{
+    font-family: serif;
+    font-size: 62.5%;
+    font-weight: 400;
+}
+
+/* body{
+    border: 10px solid red;
+} */
+
+.title{
+    color: #9fa3a7;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+
+.text_h3{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    font-size: 2.2rem;
+    line-height: 3.2rem;
+    font-family: sans-serif;
+}
+
+.mini_title{
+    color: #9fa3a7;
+    font-size: 1.4rem;
+    font-family: sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+/* Grid */
+.grid{
+    display: grid;
+    align-content: start;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    grid-template-columns: 1fr 1fr 1fr 25%;
+    grid-template-rows: 1fr 1fr 0fr 0.5fr;
+}
+
+.grid .item_grid_1{
+    padding: 5.5rem 7rem 0 7rem;
+}
+
+.grid .item_grid_2{
+    padding: 3rem 0.5rem 0 0.5rem;
+}
+
+.grid .item_grid_2 .phone{
+    max-width: 24.9rem;
+}
+
+.grid .item_grid_3{
+    grid-column: 3/5;
+    text-align: center;
+    padding: 5rem 0 0 0;
+    background: #f7f8f9;
+}
+
+.grid .item_grid_3 .text_h1{
+    margin: 2rem 2rem 2rem 2rem;
+    font-size: 4.8rem;
+    line-height: 6rem;
+    font-weight: 400;
+}
+
+.grid .item_grid_3 .download{
+    font-size: 2rem;
+    background: green;
+    padding: 1rem 2rem;
+}
+
+.grid .item_grid_4{
+    background: #f05638;
+    text-align: center;
+    padding: 5rem 2rem;
+}
+
+.grid .item_grid_4 .keyboard{
+    max-width: 31.9rem;
+}
+
+.grid .item_grid_4 .text_keyboard{
+    text-align: center;
+    font-size: 2.2rem;
+    line-height: 3.2rem;
+    margin: 2rem 0;
+    color: #fff;
+    padding: 0 3rem;
+}
+
+.grid .item_grid_4 .learn{
+    color: #ffc126;
+    font-size: 1.7rem;
+    line-height: 3.2rem;
+}
+
+.grid .item_grid_5{
+    text-align: center;
+    align-self: self-end;
+    max-width: 40rem;
+}
+.grid .item_grid_5 .text_hardly{
+    max-width: 15rem;
+    margin: 2rem auto;
+    font-size: 2.2rem;
+    font-weight: 400;
+    line-height: 3.2rem;
+}
+.grid .item_grid_5 .computer{
+    max-width: 45rem;
+    position: relative;
+    right: 17rem;
+}
+
+.grid .item_grid_6{
+    padding: 5rem 1rem 0 0;
+}
+
+.grid .item_grid_6 .title_apple{
+    font-size: 1.1rem;
+    line-height: 2.6rem;
+    margin-bottom: 2rem;
+}
+.grid .item_grid_6 .downloads{
+    color: #8fb3df;
+    font-size: 1.4rem;
+    line-height: 3.2rem;
+    letter-spacing: 0.5rem;
+    font-weight: 600;
+}
+
+/* grid_7 */
+.grid .item_grid_7{
+    background: #8f76bc;
+    grid-column: 4/5;
+    grid-row: 2/4;
+    text-align: center;
+    padding: 5rem 2.5rem;
+    color: #fff;
+}
+
+.grid .item_grid_7 .popular_one{
+    padding: 0.5rem;
+    border-radius: 1rem;
+    margin: 2rem auto;
+    background: #423d4b;
+    color: #fff;
+    width: 10rem;
+    font-size: 1.4rem;
+    line-height: 2.6rem;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+
+.grid .item_grid_7 .total{
+    max-width: 23.9rem;
+}
+
+.grid .item_grid_7 .meet{
+    font-size: 1.8rem;
+    font-weight: 400;
+    font-family: sans-serif;
+    line-height: 2.6rem;
+}
+
+.grid .item_grid_7 .icloud{
+    font-size: 2.8rem;
+    font-weight: 600;
+    font-family: sans-serif;
+    line-height: 2.6rem;
+    margin: 3rem 0;
+}
+
+.grid .item_grid_7 .verion{
+    font-size: 1.4rem;
+    font-weight: 400;
+    font-family: sans-serif;
+    line-height: 3.6rem;
+    margin: 2rem 0;
+}
+
+.grid .item_grid_7 .learn_more{
+    padding: 2rem 3rem;
+    border-radius: 1rem;
+    background-color: #ffc126;
+    color: #000;
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: sans-serif;
+    line-height: 2.6rem;
+}
+
+.grid .item_grid_8{
+    background: #fff;
+    text-align: center;
+    padding: 5rem 2rem 0 2rem;
+}
+
+.grid .item_grid_8 .game{
+    max-width: 31.9rem;
+    position: relative;
+    right: 2.5rem;
+}
+
+.grid .item_grid_8 .text_keyboard{
+    font-size: 2.2rem;
+    line-height: 3.2rem;
+    margin: 2rem 0;
+    padding: 0 3rem;
+}
+
+.grid .item_grid_8 .learn{
+    color: #ffc126;
+    font-size: 1.7rem;
+    line-height: 3.2rem;
+}
+
+.grid .item_grid_9{
+    align-self: self-end;
+    grid-column: 2/4;
+    background: #93b6b7;
+    color: #fff;
+}
+
+.grid .item_grid_9 .best{
+    padding: 5rem 0 1rem 2rem;
+    font-size: 1.8rem;
+}
+
+.grid .item_grid_9 .muchbetter{
+    text-align: center;
+    padding: 5rem 0 2.4rem 2rem;
+    font-size: 2.8rem;
+    font-weight: 600;
+}
+
+.grid .item_grid_9 .ipad{
+    max-width: 50rem;
+}
+
+.grid .item_grid_10{
+    text-align: center;
+    padding: 2rem 4.3rem;
+    background: #35cfed;
+}
+
+.grid .item_grid_10 .twitter{
+    width: 4.3rem;
+    margin-top: 2rem;
+}
+
+.grid .item_grid_10 .text_twitter{
+    text-align: center;
+    color: #fff;
+    padding: 1rem 2rem 2.4rem 2rem;
+    font-size: 2.8rem;
+    font-weight: 400;
+}
+
+.grid .item_grid_11{
+    padding: 10px 10px;
+    text-align: center;
+}
+
+.grid .item_grid_11 .popular{
+    font-size: 1.3rem;
+    padding: 1rem 1rem;
+    background: green;
+    font-weight: 400;
+    width: 14rem;
+    margin: 3rem auto;
+    color: #fff;
+    border-radius: 0.5rem;
+}
+
+.grid .item_grid_11 .experience{
+    font-family: sans-serif;
+    font-size: 2.2rem;
+    line-height: 3.2rem;
+    font-weight: 400;
+    max-width: 25rem;
+    margin: auto;
+}
+
+.grid .item_grid_12,
+.grid .item_grid_13{
+    background: #202020;
+}
+
+.grid .item_grid_12 .tv{
+    width: 25rem;
+}
+
+.grid .item_grid_13 .title_h1{
+    color: #fff;
+    margin: 9rem auto;
+    max-width: 20rem;
+    font-size: 2.2rem;
+    line-height: 3.1rem;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+
+@media (min-width: 0) and (max-width: 474.9px){
+    .grid .item_grid_3{
+        grid-column: 1/5;
+        grid-row: 1/2;
+    }
+
+    .grid .item_grid_1{
+        grid-column: 1/5;
+        grid-row: 2/3;
+        padding: 2rem;
+    }
+
+    .grid .item_grid_2{
+        grid-column: 1/5;
+        grid-row: 2/3;
+        margin: 25rem 5rem 0 5rem;
+    }
+
+    .grid .item_grid_2 .phone{
+        width: 15rem;
+    }
+
+    .grid .item_grid_4{
+        grid-column: 1/5;
+        grid-row: 3/4;
+    }
+
+    .grid .item_grid_4 .keyboard{
+        width: 15rem;
+    }
+
+    .grid .item_grid_5{
+        grid-column: 1/5;
+        grid-row: 5/6;
+    }
+
+    .grid .item_grid_5 .computer{
+        max-width: 21rem;
+        right: 7rem;
+    }
+
+    .grid .item_grid_6{
+        grid-column: 1/5;
+        grid-row: 6/7;
+        padding: 2rem;
+    }
+
+    .grid .item_grid_7{
+        grid-column: 1/5;
+        grid-row: 9/10;
+    }
+
+    .grid .item_grid_7 .total{
+        width: 20rem;
+    }
+
+    .grid .item_grid_8{
+        grid-column: 1/5;
+        grid-row: 4/5;
+    }
+
+    .grid .item_grid_8 .game{
+        width: 16rem;
+    }
+
+    .grid .item_grid_9{
+        grid-column: 1/5;
+        grid-row: 8/9;
+    }
+
+    .grid .item_grid_9 .ipad{
+        max-width: 20rem;
+    }
+
+    .grid .item_grid_10{
+        grid-column: 1/5;
+        grid-row: 7/8;
+    }
+
+    .grid .item_grid_11{
+        grid-column: 1/5;
+        grid-row: 10/11;
+    }
+
+    .grid .item_grid_12{
+        grid-column: 1/5;
+        grid-row: 11/12;
+    }
+
+    .grid .item_grid_12 .tv{
+        width: 20rem;
+    }
+
+    .grid .item_grid_13{
+        grid-column: 1/5;
+        grid-row: 12/13;
+    }
+    .grid .item_grid_13 .title_h1{
+        margin: 2rem auto;
+    }
+}
+
+@media (min-width: 475px) and (max-width: 775.9px){
+    .grid .item_grid_1{
+        grid-column: 1/3;
+        grid-row: 2/4;
+        padding: 1rem 1rem;
+    }
+
+    .grid .item_grid_2{
+        grid-column: 3/5;
+        grid-row: 2/4;
+    }
+
+    .grid .item_grid_3{
+        grid-row: 1/2;
+        grid-column: 1/5;
+    }
+
+    .grid .item_grid_4{
+        grid-column: 1/3;
+        grid-row: 3/4;
+        padding: 0;
+    }
+
+    .grid .item_grid_5{
+        grid-column: 1/5;
+        grid-row: 4/5;
+    }
+
+    .grid .item_grid_5 .computer{
+        width: 30rem;
+    }
+
+    .grid .item_grid_5 .text_hardly{
+        margin: 1rem 5rem;
+    }
+
+    .grid .item_grid_5 .title{
+        margin-right: 15rem;
+    }
+    
+    .grid .item_grid_6{
+        grid-column: 3/5;
+        grid-row: 4/5;
+    }
+
+    .grid .item_grid_7{
+        grid-column: 3/5;
+        grid-row: 5/7;
+        padding: 1rem 2.5rem;
+    }
+
+    .grid .item_grid_7 .total{
+        width: 12rem;
+    }
+
+    .grid .item_grid_2 .phone{
+        max-width: 21rem;
+    }
+
+    .grid .item_grid_7 .verion{
+        line-height: 1.5rem;
+    }
+
+    .grid .item_grid_7 .learn_more{
+        padding: 0;
+    }
+
+    .grid .item_grid_8{
+        grid-column: 3/5;
+        grid-row: 3/4;
+    }
+
+    .grid .item_grid_8 .game{
+        width: 20rem;
+    }
+
+    .grid .item_grid_9{
+        grid-column: 1/3;
+        grid-row: 6/7;
+    }
+
+    .grid .item_grid_9 .ipad{
+        width: 25rem;
+    }
+
+    .grid .item_grid_10{
+        grid-column: 1/3;
+        grid-row: 5/6;
+    }
+
+    .grid .item_grid_11{
+        grid-column: 1/5;
+        grid-row: 7/8;
+    }
+
+    .grid .item_grid_12{
+        grid-column: 1/3;
+        grid-row: 8/9;
+    }
+    
+    .grid .item_grid_13{
+        grid-column-start: 3;
+        grid-column-end: 5;
+    }
+}
+
+@media (min-width: 776px) and (max-width: 989.9px){
+    .grid .item_grid_1{
+        grid-column: 1/3;
+        grid-row: 2/4;
+    }
+
+    .grid .item_grid_2{
+        grid-column: 3/5;
+        grid-row: 2/4;
+    }
+
+    .grid .item_grid_3{
+        grid-row: 1/2;
+        grid-column: 1/5;
+    }
+
+    .grid .item_grid_4{
+        grid-column: 1/3;
+        grid-row: 3/4;
+    }
+
+    .grid .item_grid_5{
+        grid-column: 1/5;
+        grid-row: 4/5;
+    }
+    
+    .grid .item_grid_6{
+        grid-column: 3/5;
+        grid-row: 4/5;
+    }
+
+    .grid .item_grid_7{
+        grid-column: 3/5;
+        grid-row: 5/7;
+        padding: 1rem 2.5rem;
+    }
+
+    .grid .item_grid_7 .total{
+        width: 12rem;
+    }
+
+    .grid .item_grid_7 .verion{
+        line-height: 1.5rem;
+    }
+
+    .grid .item_grid_7 .learn_more{
+        padding: 0;
+    }
+
+    .grid .item_grid_8{
+        grid-column: 3/5;
+        grid-row: 3/4;
+    }
+
+    .grid .item_grid_9{
+        grid-column: 1/3;
+        grid-row: 6/7;
+    }
+
+    .grid .item_grid_9 .ipad{
+        width: 25rem;
+    }
+
+    .grid .item_grid_10{
+        grid-column: 1/3;
+        grid-row: 5/6;
+    }
+
+    .grid .item_grid_11{
+        grid-column: 1/5;
+        grid-row: 7/8;
+    }
+
+    .grid .item_grid_12{
+        grid-column: 1/3;
+        grid-row: 8/9;
+    }
+    
+    .grid .item_grid_13{
+        grid-column-start: 3;
+        grid-column-end: 5;
+    }
+}
+
+@media (min-width: 990px) and (max-width: 1200px){
+    .grid .item_grid_4{
+        padding: 0;
+    }
+
+    .grid .item_grid_3 .text_h1{
+        font-size: 3.8rem;
+    }
+    .grid .item_grid_5{
+        max-width: 20rem;
+    }
+
+    .grid .item_grid_5 .computer{
+        right: 27rem;
+    }
+
+    .grid .item_grid_6{
+        padding: 0;
+    }
+
+    .grid .item_grid_7{
+        padding: 5rem 1rem 0 1rem;
+    }
+
+    .grid .item_grid_7 .total{
+        max-width: 15.9rem;
+    }
+    
+    .grid .item_grid_7 .icloud{
+        line-height: 4.6rem;
+        margin: 0;
+    }
+
+    .grid .item_grid_8 .game{
+        max-width: 25rem;
+    }
+
+    .grid .item_grid_9 .ipad{
+        max-width: 40rem;
+    }
+
+    .grid .item_grid_12 .tv{
+        width: 16rem;
+    }
+}
+
